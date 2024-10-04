@@ -5,6 +5,7 @@ metadata:
   namespace: custom-argocd-ns-test
 spec:
   applicationSet:
+    enabled: true
     resources:
       limits:
         cpu: "2"
