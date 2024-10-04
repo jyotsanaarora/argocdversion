@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ArgoCD
 metadata:
-  name: custom-argocd
-  namespace: custom-argocd-ns
+  name: custom-argocd-1
+  namespace: custom-argocd-ns-test
 spec:
   applicationSet:
-    enabled: false 
+    enabled: true
     resources:
       limits:
         cpu: "2"
